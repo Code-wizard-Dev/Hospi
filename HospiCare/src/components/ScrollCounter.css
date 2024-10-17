@@ -1,0 +1,66 @@
+/* components/ScrollCounter.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    padding: 50px;
+    background-color: #0056b3;
+    color: white;
+    margin-bottom: 1000px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--maincolor);
+    padding: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 100%;
+  }
+  
+  .counter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .counter:hover {
+    transform: translateY(-5px);
+  }
+  
+  .counter .count {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+ .counter .para {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #555;
+  }
